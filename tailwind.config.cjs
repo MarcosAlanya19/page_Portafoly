@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('./img/wave.svg')",
+        'proyect-img': "url('./img/AppComida.jpg')"
       },
       colors: {
         'primario': '#e8505b',

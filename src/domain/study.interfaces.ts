@@ -1,5 +1,8 @@
 export interface Study {
+  img: string;
   title: string;
-  description: string;
-  year: number;
+  course: string;
+  state: string;
+  year: string;
+  certificate?: string;
 }

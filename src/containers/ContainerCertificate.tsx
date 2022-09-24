@@ -1,10 +1,8 @@
-import { Fragment } from "react"
-
 const _ContainerCertificate = () => {
   return (
-    <Fragment>
+    <>
       
-    </Fragment>
+    </>
   )
 }
 
