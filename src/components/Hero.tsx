@@ -3,15 +3,18 @@ const Hero = () => {
     <>
       <section >
         <div className="bg-blue-900">
-          <div className="grid md:grid-cols-2 items-center h-80 my-auto">
+          <div className="grid md:grid-cols-2 items-center pt-8">
 
             <div>
-              <img src="./img/developer.svg" className="w-44 md:w-80 lg:w-96 m-auto lg:mt-12 mt-5" alt="img__developer" />
+              <img src="./img/developer.svg" className="w-44 md:w-80 lg:w-96 mx-auto" alt="img__developer" />
             </div>
 
-            <div className="text-center text-white mt-5 mx-6 lg:mt-20">
-              <h1 className="font-bold text-3xl lg:text-5xl">Marcos Antonio Alanya Pacheco</h1>
-              <h2 className="py-3 mx-9 lg:text-2xl">HTML | CSS | SASS | JavaScript | TypeScript | GitHub | Tailwind | Bootstrap</h2>
+            <div>
+              <div className="text-center text-white mt-5 mx-auto my-auto">
+                <h1 className="font-black text-3xl lg:text-5xl">DEVELOPER FRONTEND</h1>
+                <h1 className="font-bold text-2xl lg:text-4xl">Marcos Alanya Pacheco</h1>
+                <h2 className="py-3 mx-9 lg:text-2xl">HTML | CSS | SASS | JavaScript | TypeScript | GitHub | Tailwind | Bootstrap</h2>
+              </div>
             </div>
 
           </div>

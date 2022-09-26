@@ -2,7 +2,7 @@ import { Study } from "../domain/study.interfaces";
 
 export const studyData: Study[] = [
   {
-    img: "./img/certus.svg",
+    img: "./img/studies/LogoCertus.svg",
     title: "IFB CERTUS",
     course: "Contabilidad",
     state: "Egresado",
@@ -10,7 +10,7 @@ export const studyData: Study[] = [
     certificate: "./img/ConstanciaCertus.svg",
   },
   {
-    img: "./img/pontificia.svg",
+    img: "./img/studies/LogoPontificia.svg",
     title: "ILP PONTIFICIA",
     course: "Desarrollo de sistemas de la información",
     state: "Cursando II Ciclo",

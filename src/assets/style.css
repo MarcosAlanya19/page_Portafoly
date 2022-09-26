@@ -1,11 +1,3 @@
-html{
-	box-sizing: border-box;
-	font-size: 62.5%; /*1rem = 10px*/
-}
-*, *::before, *::after{
-	box-sizing: inherit;
-}
-
 .modal{
   position: fixed;
   background-color: #33333399;
@@ -78,3 +70,26 @@ html{
   /* z-index: 1; */
 }
 
+picture{
+  position: relative;
+  display: inline-grid;
+  overflow: hidden;
+}
+
+picture::after{
+  content: "";
+  position: absolute;
+  inset: -1px;
+  --_g: conic-gradient(at 50% 25%, rgb(0 0 0/30%) 75%, #0000 0 ) no-repeat;
+  background: var(--_g) 0 calc(34% - var(--_p, 0%)) / 50.1% 400%,
+    var(--_g) 100% calc(100% - var(--_p, 0%)) / 50.1% 400%;
+  transition: 0.5s linear;
+}
+
+picture.alt::after{
+  transform: scale(-1);
+}
+
+picture:hover::after{
+  --_p: 134%
+}
