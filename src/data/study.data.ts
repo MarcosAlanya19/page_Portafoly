@@ -7,7 +7,7 @@ export const studyData: Study[] = [
     course: "Contabilidad",
     state: "Egresado",
     year: "2018 - 2021",
-    certificate: "https://drive.google.com/file/d/1Ik4Sg-2HBd-QK3Ju05kf8NyMxV4KpRUi/view?usp=sharing",
+    certificate: "./img/ConstanciaCertus.svg",
   },
   {
     img: "./img/pontificia.svg",

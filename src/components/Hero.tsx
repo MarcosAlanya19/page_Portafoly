@@ -1,4 +1,4 @@
-const _Hero = () => {
+const Hero = () => {
   return (
     <>
       <section >
@@ -24,4 +24,4 @@ const _Hero = () => {
   )
 }
 
-export default _Hero
+export default Hero

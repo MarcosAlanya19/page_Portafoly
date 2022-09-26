@@ -1,7 +1,7 @@
 import { StudyCard } from "../components/StudyCard";
 import { studyData } from "../data/study.data"
 
-const _ContainerStudy = () => {
+const ContainerStudy = () => {
   return (
     <>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -23,4 +23,4 @@ const _ContainerStudy = () => {
   )
 }
 
-export default _ContainerStudy
+export default ContainerStudy

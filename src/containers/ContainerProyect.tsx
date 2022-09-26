@@ -1,7 +1,7 @@
 import Proyects from "../components/Proyects"
 import { proyectData } from "../data/proyect.data"
 
-const _ContainerProyect = () => {
+const ContainerProyect = () => {
   return (
     <>
       <div className="container mx-auto">
@@ -16,4 +16,4 @@ const _ContainerProyect = () => {
   )
 }
 
-export default _ContainerProyect
+export default ContainerProyect

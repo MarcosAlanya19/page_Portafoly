@@ -4,7 +4,7 @@ interface MyProps {
   data: Proyect
 }
 
-const _Proyects = ({data: {img, linkPage, title, linkGH, description, lenguage, proyect, type}}:MyProps) => {
+const Proyects = ({data: {img, linkPage, title, linkGH, description, lenguage, proyect, type}}:MyProps) => {
   return (
     <>
       <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -34,4 +34,4 @@ const _Proyects = ({data: {img, linkPage, title, linkGH, description, lenguage, 
   )
 }
 
-export default _Proyects
+export default Proyects
