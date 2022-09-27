@@ -1,5 +1,5 @@
-import Proyects from "../components/Proyects"
-import { proyectData } from "../data/proyect.data"
+import { proyectData } from "../../data/proyect.data"
+import Proyects from "../Proyects"
 
 const ContainerProyect = () => {
   return (

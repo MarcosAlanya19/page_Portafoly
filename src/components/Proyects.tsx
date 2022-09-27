@@ -1,4 +1,5 @@
 import { Proyect } from "../domain/proyect.interfaces"
+import '../assets/style.css'
 
 interface MyProps {
   data: Proyect

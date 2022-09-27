@@ -1,5 +1,5 @@
-import CertificatesCard from "../components/CertificatesCard";
-import { certificateData } from "../data/certificates.data";
+import { certificateData } from "../../data/certificates.data";
+import CertificatesCard from "../CertificatesCard";
 
 const ContainerCertificate = () => {
   return (

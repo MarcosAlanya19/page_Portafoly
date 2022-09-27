@@ -1,5 +1,5 @@
-import { StudyCard } from "../components/StudyCard";
-import { studyData } from "../data/study.data"
+import { studyData } from "../../data/study.data"
+import { StudyCard } from "../StudyCard"
 
 const ContainerStudy = () => {
   return (
