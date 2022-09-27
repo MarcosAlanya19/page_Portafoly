@@ -7,15 +7,15 @@ interface MyProps{
 const CertificatesCard = ({data:{company, date, img, title}}:MyProps) => {
   return (
     <>
-      <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="max-w-sm rounded-lg border shadow-md bg-gray-800 border-gray-700">
         <a href="#">
           <img className="rounded-t-lg" src={img} alt="img_certificate" />
         </a>
-        <div className="p-5">
+        <div className="grid grid-rows-2 items-center lg:my-2">
           <a href="#">
-            <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white text-center">{title}</h5>
+            <h5 className="py-1 text-1xl font-bold tracking-tight text-white text-center ">{title}</h5>
           </a>
-          <div className="font-normal text-gray-700 dark:text-gray-400 grid grid-cols-2 text-center">
+          <div className="font-normal text-gray-400 grid grid-cols-2 text-center py-1 px-1 items-center">
             <p>{company }</p>
             <p>{date }</p>
           </div>
