@@ -91,4 +91,14 @@ export const proyectData: Proyect[] = [
     type: "Maquetación",
     proyect: "Personal"
   },
+  {
+    img: "./img/proyect/ApiCrypto.png",
+    linkPage:"https://marcosalanya19.github.io/page_ApiCrypto/",
+    title: "GH: ApiCrypto",
+    linkGH:"https://github.com/MarcosAlanya19/page_ApiCrypto",
+    description: "Uso del API CryptoCompare, para saber el valor de las criptomonedas",
+    lenguage: "HTML | CSS | TypeScript",
+    type: "Consumo de API",
+    proyect: "Personal"
+  },
 ]

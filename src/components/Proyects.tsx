@@ -16,21 +16,23 @@ const Proyects = ({data: {img, linkPage, title, linkGH, description, lenguage, p
               </picture>
             </a>
           
-              <div className="p-5 h-60 grid grid-rows-3 items-center">
-                <a href={linkGH} target="_blank">
-                  <h5 className="mb-9 text-2xl font-bold tracking-tight text-white hover:text-blue-400 hover:scale-110 transition-all duration-300 text-center">{title}</h5>
-                </a>
-                {/* <div className="flex justify-between">
-                  <p>Visitar page</p>
-                  <p>Revisar Codigo</p>
-                </div> */}
-                <div className="font-normal text-gray-400">
-                  <p className="">{description}</p>
+              <div className="px-5 pb-5 items-center">
+                <h5 className="mt-1 mb-3 text-2xl font-bold tracking-tight text-white  text-center">{title}</h5>
+                <div className="grid grid-cols-2 uppercase text-white justify-items-center my-4">
+                  <a className="text-white font-medium rounded-md text-sm px-2.5 py-2  bg-sky-600 hover:bg-sky-700" href={linkPage} target="_blank">
+                    <p>Visitar page</p>
+                  </a>
+                  <a className="text-white font-medium rounded-md text-sm px-2.5 py-2  bg-sky-600 hover:bg-sky-700" href={linkGH} target="_blank">
+                    <p>Revisar Codigo</p>
+                  </a>
+                </div>
+                <div className="font-normal text-gray-400 text-justify">
+                  <p>{description}</p>
                   <p>Proyecto: {proyect}</p>
                   <p>Tipo de proyecto: {type}</p>
                 </div>
-                <div className="font-normal text-gray-400 pt-5">
-                  <p className="text-center mt-5">{lenguage}</p>
+                <div className="font-normal text-gray-400 mt-4">
+                  <p className="text-center">{lenguage}</p>
                 </div>
               </div>
           </div>
