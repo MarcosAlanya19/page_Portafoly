@@ -6,7 +6,7 @@ const Hero = () => {
           <div className="grid md:grid-cols-2 items-center pt-8">
 
             <div>
-              <img src="./img/developer.svg" className="w-44 md:w-80 lg:w-7/12 mx-auto" alt="img__developer" />
+              <img loading="lazy" src="./img/developer.svg" className="w-44 md:w-80 lg:w-7/12 mx-auto" alt="img__developer" />
             </div>
 
             <div className="md:mr-5 lg:mr-28">

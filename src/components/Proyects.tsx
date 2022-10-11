@@ -12,7 +12,7 @@ const Proyects = ({data: {img, linkPage, title, linkGH, description, lenguage, p
           <div className="shadow-[0_0_12px_2px_rgba(0,0,0,0.75)] max-w-sm  rounded-lg border bg-gray-800 border-gray-700">
             <a href={linkPage} className="img__effect" target="_blank">
               <picture className="alt">
-                  <img className="rounded-t-lg" src={img} alt="img__page" />
+                  <img loading="lazy" className="rounded-t-lg" src={img} alt="img__page" />
               </picture>
             </a>
           
@@ -20,6 +20,10 @@ const Proyects = ({data: {img, linkPage, title, linkGH, description, lenguage, p
                 <a href={linkGH} target="_blank">
                   <h5 className="mb-9 text-2xl font-bold tracking-tight text-white hover:text-blue-400 hover:scale-110 transition-all duration-300 text-center">{title}</h5>
                 </a>
+                {/* <div className="flex justify-between">
+                  <p>Visitar page</p>
+                  <p>Revisar Codigo</p>
+                </div> */}
                 <div className="font-normal text-gray-400">
                   <p className="">{description}</p>
                   <p>Proyecto: {proyect}</p>

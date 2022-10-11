@@ -10,6 +10,16 @@
   justify-content: center;
   align-items: center;
   overflow: hidden  ;
+  transition: opacity .3s;
+}
+
+.modal:target{
+  --opacity: 1;
+  --pointer: unset;
+}
+
+.modal:target .modal-container{
+  animation: scale .5s .5s backwards;
 }
 
 .modal.is-open{
@@ -19,16 +29,25 @@
 .modal-container{
   position: relative;
   border-radius: 1rem;
-  padding: 1rem;
   background-color: #fff;
-  min-width: 320px;
-  max-width: 480px;
-  min-height: 200px;
+  min-width: 20rem;
+  max-width: 30rem;
+  min-height: 15rem;
   overflow: hidden;
+  margin: 0 1rem 0 1rem;
 }
 
 .modal-close{
   position: absolute;
   top: 1rem;
   right: 1rem;
+}
+
+@media(min-width: 768px){
+  .modal-container{
+    padding: 1rem;
+    min-width: 38rem;
+    max-width: 40rem;
+    min-height: 20rem;
+  }
 }
