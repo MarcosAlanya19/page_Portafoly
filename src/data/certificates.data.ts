@@ -43,4 +43,10 @@ export const certificateData: Certificate[]=[
     company: "Udemy",
     date: "07/2022", 
     },
+    {
+      img: "./img/certificates/8.png",
+      title: "JavaScript Moderno",
+      company: "Udemy",
+      date: "10/2022", 
+      },
 ]

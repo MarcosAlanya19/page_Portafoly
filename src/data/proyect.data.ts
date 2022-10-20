@@ -27,7 +27,7 @@ export const proyectData: Proyect[] = [
     title: "GH: Validate Form",
     linkGH:"https://github.com/MarcosAlanya19/page_ValidateForm",
     description: "El formulario solo enviara cuando se cumpla los requerimientos basicos",
-    lenguage: "HTML | CSS | Tailwind | TypeScript",
+    lenguage: "HTML | Tailwind | TypeScript",
     type: "Validador de formulario",
     proyect: "Personal"
   },
@@ -37,7 +37,7 @@ export const proyectData: Proyect[] = [
     title: "GH: ChallengeR2",
     linkGH:"https://github.com/MarcosAlanya19/page_ChallengeR2",
     description: "Challenge Responsive de la pag DevChallenges.io",
-    lenguage: "HTML | CSS | Tailwind",
+    lenguage: "HTML | Tailwind",
     type: "Maquetación",
     proyect: "Personal"
   },
@@ -64,10 +64,10 @@ export const proyectData: Proyect[] = [
   {
     img: "./img/proyect/Stone.png",
     linkPage:"https://marcosalanya19.github.io/page_Stone/",
-    title: "GH: Wallet Nucleus",
+    title: "GH: Stone",
     linkGH:"https://github.com/MarcosAlanya19/page_Stone",
     description: "Pagina responsive respecto a una web de muebles",
-    lenguage: "HTML | CSS | Tailwind | React | TypeScript",
+    lenguage: "HTML | Tailwind | React | TypeScript",
     type: "Maquetación",
     proyect: "Personal"
   },
@@ -77,7 +77,7 @@ export const proyectData: Proyect[] = [
     title: "GH: Post Facebook",
     linkGH:"https://github.com/MarcosAlanya19/page_Post-Facebook",
     description: "Pagina responsive respecto un post de Facebook",
-    lenguage: "HTML | CSS | React | Tailwind",
+    lenguage: "HTML | Tailwind | React",
     type: "Maquetación",
     proyect: "Personal"
   },
@@ -87,7 +87,7 @@ export const proyectData: Proyect[] = [
     title: "GH: CoachFede",
     linkGH:"https://github.com/MarcosAlanya19/page_CoachFede",
     description: "Pagina responsive respecto a un Coach de entrenamiento personal",
-    lenguage: "HTML | CSS | CHAKRA",
+    lenguage: "HTML | CHAKRA",
     type: "Maquetación",
     proyect: "Personal"
   },
@@ -98,6 +98,16 @@ export const proyectData: Proyect[] = [
     linkGH:"https://github.com/MarcosAlanya19/page_ApiCrypto",
     description: "Uso del API CryptoCompare, para saber el valor de las criptomonedas",
     lenguage: "HTML | CSS | TypeScript",
+    type: "Consumo de API",
+    proyect: "Personal"
+  },
+  {
+    img: "./img/proyect/ApiDB.png",
+    linkPage:"https://marcosalanya19.github.io/page_DbSuper/",
+    title: "GH: ApiDragon Ball Super",
+    linkGH:"https://github.com/MarcosAlanya19/page_DbSuper",
+    description: "Uso del API DragonBS, el cual muestra una card con info de los personajes",
+    lenguage: "HTML | Tailwind | TypeScript",
     type: "Consumo de API",
     proyect: "Personal"
   },

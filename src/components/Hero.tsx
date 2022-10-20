@@ -11,9 +11,9 @@ const Hero = () => {
 
             <div className="md:mr-5 lg:mr-28">
               <div className="text-center text-white mt-5 mx-auto my-auto">
-                <h1 className="font-black text-3xl lg:text-5xl">DEVELOPER FRONTEND</h1>
+                <h1 className="font-black text-3xl lg:text-5xl">FRONT-END DEVELOPER</h1>
                 <h1 className="font-bold text-2xl lg:text-4xl">Marcos Alanya Pacheco</h1>
-                <h2 className="py-3 mx-9 lg:text-2xl">HTML | CSS | SASS | JavaScript | TypeScript | GitHub | Tailwind | Bootstrap</h2>
+                <h2 className="py-3 mx-9 lg:text-2xl">HTML | CSS | SASS | JavaScript | TypeScript | GitHub | Tailwind | Bootstrap </h2>
               </div>
             </div>
 
